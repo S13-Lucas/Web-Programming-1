@@ -55,6 +55,12 @@ main {
   grid-row: 1 / 5;
 }
 
+.hero-section__image {
+  
+  height: 150%;
+  opacity: 0.5;
+}
+
 .about-section {
   background-color: #ddd;
   border: solid;
