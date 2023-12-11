@@ -41,11 +41,9 @@ nav {
 
 main {
   display: grid;
-  grid-template-columns:  repeat(10, auto);
-  grid-template-rows:  repeat(4, auto);
+  grid-template-columns:  repeat(12, auto);
+  grid-template-rows:  repeat(3, auto);
   border: solid;
-  
-  
 }
 
 /* setting hero section to be 60% horizontally and rest 40% */ 
@@ -54,8 +52,8 @@ main {
   display: flex;
   background-color: #f0f0f0;
   border: solid;
-  grid-column: 1 / 7;
-  grid-row: 1 / 5;
+  grid-column: 1 / 13;
+  grid-row: 1 / 2;
   border: solid;
   
 }
@@ -69,15 +67,15 @@ main {
 .about-section {
   background-color: #ddd;
   border: solid;
-  grid-column: 7 / 11;
-  grid-row: 1 / 4;
+  grid-column: 1 / 13;
+  grid-row: 2 / 3;
 }
 
 .signup-section {
   text-align: center;
   border: solid;
-  grid-column: 7 / 11;
-  grid-row: 4 / 5;
+  grid-column: 1 / 13;
+  grid-row: 3 / 4;
 }
 
 .signup-section__button {
