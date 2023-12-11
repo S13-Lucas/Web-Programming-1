@@ -41,23 +41,28 @@ nav {
 
 main {
   display: grid;
-  grid-template-columns: repeat(10, 10%);
-  grid-template-rows: repeat(4, 25%);
+  grid-template-columns:  repeat(10, auto);
+  grid-template-rows:  repeat(4, auto);
   border: solid;
+  
+  
 }
 
 /* setting hero section to be 60% horizontally and rest 40% */ 
 
 .hero-section {
+  display: flex;
   background-color: #f0f0f0;
   border: solid;
   grid-column: 1 / 7;
   grid-row: 1 / 5;
+  border: solid;
+  
 }
 
 .hero-section__image {
   
-  height: 150%;
+  object-fit: cover;
   opacity: 0.5;
 }
 
