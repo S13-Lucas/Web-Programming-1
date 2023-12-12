@@ -1,140 +1,226 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  padding-bottom: 1000px;
-  padding: 0px;
-  margin: 0px;
-  font-size: 22px;
-}
+body { 
 
-/* NAVBAR */
+  font-family: 'Helvetica Neue', Arial, sans-serif; 
+  background-color: #f4f4f4; 
+  margin: 0; 
+  padding: 0; 
+  font-size: 16px; 
+  color: #333; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 
-nav {
-  display: flex;
-  height: 65px;
-  padding: 0px 10px;
+} 
 
-  background-color: #D25800;
-  justify-content: space-between;
-}
+  
 
-.navbar {
-  align-items: center;
-  display: flex;
-  padding: px;
-  justify-content: flex-end;
-  margin: 0 ;
-  padding: 0;
-  list-style-type: none;
-}
+/* NAVBAR */ 
 
-.navButton {
-  background-color: #4caf50;
-  border: none;
-  color: white;
-  padding: 7px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  margin: 2px;
-  cursor: pointer;
-}
+  
+
+nav { 
+
+  display: flex; 
+  height: 80px;
+  padding: 0 20px; 
+  background-color: #2d73bf; 
+  align-items: center; 
+  justify-content: space-between; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+
+} 
+
+  
+
+.navbar { 
+
+  display: flex; 
+  list-style: none; 
+  margin: 0; 
+
+  padding: 0; 
+
+} 
+
+  
+
+.navButton { 
+
+  background-color: #3d81bd; 
+
+  border: none; 
+
+  color: white; 
+
+  padding: 10px 15px; 
+
+  text-align: center; 
+
+  text-decoration: none; 
+
+  margin: 0 10px; 
+
+  font-size: 16px; 
+
+  border-radius: 5px; 
+
+  transition: background-color 0.3s ease; 
+
+} 
+
+  
+
+.navButton:hover { 
+
+  background-color: #317eaa; 
+
+} 
+
+  
+
+/* ABOUT SECTION */ 
+
+  
+
+.aboutSection { 
+
+  display: flex; 
+
+  flex-direction: column; 
+
+  align-items: center; 
+
+  justify-content: center; 
+
+  height: calc(100vh - 80px); 
+
+  background-color: #f6eded; 
 
 
-/* ABOUT SECTION */
+} 
 
-.aboutSection {
-display: flex;
-flex-direction: column;
-background-color: #f4f4f4;
-align-items: center;
-justify-content: center;
-height: calc(100vh - 71px);
-border: solid;
+  
 
-}
+.aboutBox { 
 
-.aboutBox {
-display: flex;
-flex-basis: auto;
-background-color: white;
+  background-color: #5f85c1; 
 
-border: solid;
-border-color: #4caf50;
-height: 100%;
-width: 60%;
-justify-content: center;
-text-align: center;
-padding: 10px;
-background-color: #4caf50;
-}
+  border: 2px solid #f6f6f6; 
 
-.about {
-display: flex;
-letter-spacing: .5px;
-color: white;
-font-weight: bold;
-justify-content: center; 
-margin: 10px;
-text-decoration: underline;
-}
+  width: 60%; 
 
-.aboutBox input {
-width: 86%;
-padding: 10px;
-margin-bottom: 15px;
-box-sizing: border-box;
-border: 1px solid #ccc;
-border-radius: 5px;
-font-size: 15px;
-}
+  padding: 20px; 
 
-#details {
-resize: none;
-color: #000000;
-width: 85%;
-height: 100px;
-border: 1px solid #ccc;
-font-size: 15px;
-font-family: sans-serif;
-border-radius: 5px;
-}
+  text-align: center; 
 
-.aboutBox button {
-width: 28%;
-padding: 10px;
-background-color: #fff;
-color: #808080;
-border-color: #ccc;
-border-radius: 5px;
-cursor: pointer;
-justify-content: center; 
-margin-top: 10px;
-font-size: 13px;
-}
+  border-radius: 8px; 
 
-#edit:hover {
-background-color: #ffd60a;
-color: #000;
-transform: scale(1.05);
-will-change: transform;
-cursor: pointer;
-}
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 
-#save:hover {
-background-color: #0ba6ff;
-color: #fff;
-transform: scale(1.05);
-will-change: transform;
-cursor: pointer;
-}
+} 
 
-#delete:hover {
-background-color: #c80000;
-color: #fff;
-transform: scale(1.05);
-will-change: transform;
-cursor: pointer;
-}
+  
 
+.about { 
+
+  color: rgb(238, 241, 244); 
+
+  font-weight: bold; 
+
+  margin: 10px 0; 
+
+  text-decoration: underline; 
+
+} 
+
+  
+
+.aboutBox input, #details { 
+
+  width: 86%; 
+
+  padding: 10px; 
+
+  margin-bottom: 15px; 
+
+  border: 1px solid #ccc; 
+
+  border-radius: 5px; 
+
+  font-size: 15px; 
+
+} 
+
+  
+
+#details { 
+
+  height: 100px; 
+
+  color: #333; 
+
+} 
+
+  
+
+.aboutBox button { 
+
+  width: 28%; 
+
+  padding: 10px; 
+
+  background-color: #fff; 
+
+  color: #808080; 
+
+  border: 1px solid #ccc; 
+
+  border-radius: 5px; 
+
+  cursor: pointer; 
+
+  margin-top: 10px; 
+
+  font-size: 13px; 
+
+  transition: all 0.3s ease; 
+
+} 
+
+  
+
+#edit:hover { 
+
+  background-color: #99bbe6; 
+
+  color: #000; 
+
+  transform: scale(1.05); 
+
+} 
+
+  
+
+#save:hover { 
+
+  background-color: #93bbe6; 
+
+  color: #fff; 
+
+  transform: scale(1.05); 
+
+} 
+
+  
+
+#delete:hover { 
+
+  background-color: #93bbe6; 
+
+  color: #fff; 
+
+  transform: scale(1.05); 
+
+} 
+
+ 
