@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/profile-S.css">
+   <title>Student Profile Page</title> 
+  </head>
+
+  <body>
+
+    <!-- NAVBAR -->
+
+    <nav class="nav">
+      <div class="title"></div>
+      <ul class="navbar">
+        <li>
+          <a
+            href="http://127.0.0.1:5500/templates/index.html"
+            class="navButton "
+          >
+            Home
+          </a>
+        </li>
+        <li>
+          <a
+            href="http://127.0.0.1:5500/templates/signIn.html"
+            class="navButton"
+          >
+            Login
+          </a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/templates/signUp.html" 
+          class="navButton">
+            Registration
+          </a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/templates/profileStandard.html" 
+          class="navButton">
+            profileS
+          </a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/templates/profileAdmin.html" 
+          class="navButton">
+            profileA
+          </a>
+        </li>
+        <li>
+          <a href="http://127.0.0.1:5500/templates/listings.html" 
+          class="navButton">
+            listings
+          </a>
+        </li>
+        <li>
+          <a href="" 
+          class="navButton">
+            Logout (X)
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!--   MAIN BODY -->
+    <main>
+
+      <!-- ABOUT SECTION -->
+      
+      <div class="aboutSection" id="aboutSection">
+
+        
+        <div class="aboutBox">  
+              <form>
+                <div class="about">About Me</div>
+                  <input type="fullname" name="fullname" placeholder="Name">
+                  <input type="university" name="university" placeholder="phone number">
+
+                  <textarea id= "details" name="about" placeholder="About me"></textarea>
+                  <button id="edit">EDIT DETAILS</button> 
+                  <button id="save">SAVE CHANGES</button>  
+                  <button id="delete">DELETE ACCOUNT</button>
+              </form>
+          </div>
+        
+        
+      </div>  
+
+      
+    </main>
+  </body>
+
+
+</html>

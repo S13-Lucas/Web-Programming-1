@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding-bottom: 1000px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 22px;
+}
+
+/* NAVBAR */
+
+nav {
+  display: flex;
+  height: 65px;
+  padding: 0px 10px;
+
+  background-color: #D25800;
+  justify-content: space-between;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  padding: px;
+  justify-content: flex-end;
+  margin: 0 ;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navButton {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+
+/* ABOUT SECTION */
+
+.aboutSection {
+display: flex;
+flex-direction: column;
+background-color: #f4f4f4;
+align-items: center;
+justify-content: center;
+height: calc(100vh - 71px);
+border: solid;
+
+}
+
+.aboutBox {
+display: flex;
+flex-basis: auto;
+background-color: white;
+
+border: solid;
+border-color: #4caf50;
+height: 100%;
+width: 60%;
+justify-content: center;
+text-align: center;
+padding: 10px;
+background-color: #4caf50;
+}
+
+.about {
+display: flex;
+letter-spacing: .5px;
+color: white;
+font-weight: bold;
+justify-content: center; 
+margin: 10px;
+text-decoration: underline;
+}
+
+.aboutBox input {
+width: 86%;
+padding: 10px;
+margin-bottom: 15px;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 15px;
+}
+
+#details {
+resize: none;
+color: #000000;
+width: 85%;
+height: 100px;
+border: 1px solid #ccc;
+font-size: 15px;
+font-family: sans-serif;
+border-radius: 5px;
+}
+
+.aboutBox button {
+width: 28%;
+padding: 10px;
+background-color: #fff;
+color: #808080;
+border-color: #ccc;
+border-radius: 5px;
+cursor: pointer;
+justify-content: center; 
+margin-top: 10px;
+font-size: 13px;
+}
+
+#edit:hover {
+background-color: #ffd60a;
+color: #000;
+transform: scale(1.05);
+will-change: transform;
+cursor: pointer;
+}
+
+#save:hover {
+background-color: #0ba6ff;
+color: #fff;
+transform: scale(1.05);
+will-change: transform;
+cursor: pointer;
+}
+
+#delete:hover {
+background-color: #c80000;
+color: #fff;
+transform: scale(1.05);
+will-change: transform;
+cursor: pointer;
+}
+
