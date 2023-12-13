@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #777777;
+
   padding-bottom: 1000px;
   padding: 0px;
   margin: 0px;
@@ -25,7 +25,7 @@ nav {
   height: 65px;
   padding: 0px 10px;
   margin: 0px;
-  background-color: #4caf50;
+  background-color: #0c599d;
   justify-content: space-between;
 }
 
@@ -40,7 +40,7 @@ nav {
 }
 
 .navButton {
-  background-color: #4caf50;
+  background-color: #3773c2;
   border: none;
   color: white;
   padding: 7px 16px;
@@ -59,7 +59,7 @@ nav {
   display: flex;
   height: 55px;
   margin: 0px;
-  background-color: #3d8a3f;
+  background-color: #229bb4;
   align-items: center;
 }
 
@@ -103,12 +103,9 @@ nav {
   border: solid;
   overflow: hidden;
   width: 50%;
-  background-color: black;
+  background-color: black; 
 }
 
-.box1__name ,.box2__name ,.box3__name, .box4__name, .box5__name, .box6__name {
-
-}
 
 
 
@@ -118,26 +115,28 @@ nav {
   grid-column: 1 / 7;
   grid-row: 1 / 5;
   border: solid;
+  justify-content: space-between;
 }
 
 .box2 {
   grid-column: 7 / 13;
   grid-row: 1 / 5;
   border: solid;
- 
+  justify-content: space-between;
 }
 
 .box3 {
   grid-column: 1 / 7;
   grid-row: 5 / 9;
   border: solid;
-
+  justify-content: space-between;
 }
 
 .box4 {
   grid-column: 7 / 13;
   grid-row: 5 / 9;
   border: solid;
+  justify-content: space-between;
 
 }
 
@@ -145,12 +144,51 @@ nav {
   grid-column: 1 / 7;
   grid-row: 9 / 13;
   border: solid;
-
+  justify-content: space-between;
 }
 
 .box6 {
   grid-column: 7 / 13;
   grid-row: 9 / 13;
   border: solid;
+  justify-content: space-between;
 
 }
+
+.book-button {
+  padding: 10px 15px;
+
+  background-color: #645ff4; /* Green background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.book-button:hover {
+  background-color: #8bd9f3; /* Darker green on hover */
+}
+
+.box1__image, .box2__image, .box3__image, .box4__image, .box5__image, .box6__image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.box1__title, .box2__title, .box3__title, .box4__title, .box5__title, .box6__title {
+
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+ 
+
+}
+
+
+
+
+
+
+
