@@ -1,0 +1,64 @@
+body { 
+  font-family: 'Helvetica Neue', Arial, sans-serif; 
+  background-color: #f4f4f4; 
+  margin: 0; 
+  padding: 0; 
+  font-size: 16px; 
+  color: #333; 
+  height: 1500px;
+} 
+
+main { 
+  padding: 40px; 
+  margin-top: 30px;
+}
+
+/* NAVBAR */
+
+nav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* SEARCHBAR */
+
+.search-container {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 60px;
+  width: 100%;
+}
+
+.search-container input[type=text] {
+  float: left;
+  color: #f2f2f2;
+  padding: 8px; 
+  font-size: 16px; 
+  border: 1px solid #ddd; 
+  border-radius: 2px; 
+  margin: 5px; 
+}
+
+.search-container button {
+
+}
+

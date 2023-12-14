@@ -1,22 +1,21 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #777777;
-  padding-bottom: 1000px;
-  padding: 0px;
-  margin: 0px;
-  font-size: 22px;
-}
+body { 
+  font-family: 'Helvetica Neue', Arial, sans-serif; 
+  background-color: #f4f4f4; 
+  margin: 0; 
+  padding: 0; 
+  font-size: 16px; 
+  color: #333; 
+} 
 
-main {
-  padding: 40px;
-}
-
-img {
-  min-width: 100%; max-width: 100%;
-  min-height: 100%; max-height: 100%;
-  object-fit: cover;
-  opacity: 0.3;
-}
+main { 
+  padding: 40px; 
+} 
+img { 
+  max-width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+  opacity: 0.5;
+} 
 
 /* NAVBAR */
 
@@ -106,9 +105,7 @@ nav {
   background-color: black;
 }
 
-.box1__name ,.box2__name ,.box3__name, .box4__name, .box5__name, .box6__name {
 
-}
 
 
 

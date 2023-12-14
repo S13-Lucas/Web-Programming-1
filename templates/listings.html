@@ -9,45 +9,11 @@
 
   <body>
     <!-- NAVBAR -->
-    <nav class="nav">
-      <div class="title"></div>
-      <ul class="navbar">
-        <li>
-          <a
-            href="http://127.0.0.1:5500/templates/index.html"
-            class="navButton "
-          >
-            Home
-          </a>
-        </li>
-        <li>
-          <a
-            href="http://127.0.0.1:5500/templates/signIn.html"
-            class="navButton"
-          >
-            Login
-          </a>
-        </li>
-        <li>
-          <a href="http://127.0.0.1:5500/templates/signUp.html" 
-          class="navButton">
-            Registration
-          </a>
-        </li>
-        <li>
-          <a href=" " 
-          class="navButton">
-            Account
-          </a>
-        </li>
-        <li>
-          <a href="" 
-          class="navButton">
-            Logout (X)
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+    </div>>
 
 
 
@@ -64,9 +30,9 @@
     <main>
       <!-- SESSIONS -->
 
-      <div class="sessions-container">
+      <div class="classes-container">
 
-        <div class="sessions-container__session box1">
+        <div class="classes-container__class box1">
           
           <div class="box1__image"><div class="box1__title">Swimming</div><img src="/static/images/FINAL_Swimming.webp"/></div>
           <div class="box1__description">Swimming Class</div>
@@ -74,7 +40,7 @@
 
         </div>
 
-        <div class="sessions-container__session box2">
+        <div class="classes-container__class box2">
 
           <div class="box2__image"> <div class="box2__title">5-A-side</div><img src="/static/images/5-A-side.jpg" /></div>
           <div class="box2__description"></div>
@@ -82,15 +48,15 @@
           
         </div>
 
-        <div class="sessions-container__session box3">
+        <div class="classes-container__class box3">
           
           <div class="box3__image"><div class="box3__title">Massage</div><img src="/static/images/sports massage.webp"/></div>
           <div class="box3__description"></div>
-          <button class="book-button">Book</button>
+          <button class="">Delete</button>
 
         </div>
  
-        <div class="sessions-container__session box4">
+        <div class="classes-container__class box4">
           
           <div class="box4__image"><div class="box4__title">Badminton</div><img src="/static/images/tdslyl0pptzs6vst4uq5.webp"/></div>   
           <div class="box4__description"></div>
@@ -98,7 +64,7 @@
 
         </div>
 
-        <div class="sessions-container__session box5">
+        <div class="classes-container__class box5">
           
           <div class="box5__image"><div class="box5__title">Football</div><img src="/static/images/football.jpg" /></div>
           <div class="box5__description"></div>
@@ -106,7 +72,7 @@
           
         </div>
 
-        <div class="sessions-container__session box6">
+        <div class="classes-container__class box6">
           
           <div class="box6__image"><div class="box6__title">Tennis</div><img src="/static/images/tennis_racket_balls_ss_0618_noexp_620x400.webp"/></div>
           <div class="box6__title"></div>
@@ -114,6 +80,19 @@
 
           <button class="book-button">Book</button>
 
+        </div>
+
+
+        <div class="new-listing">
+          <form>            
+              <input type="title" name="name" placeholder="Class Name...">
+
+              <input type="desc" name="desc" placeholder="Class Description..." required>
+
+              <input type="password" name="time" placeholder="Class time" required>
+
+              <button id="desc">create new listing</button>
+            </form>
         </div>
 
       </div>
