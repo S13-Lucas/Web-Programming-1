@@ -25,7 +25,7 @@ nav {
   height: 65px;
   padding: 0px 10px;
   margin: 0px;
-  background-color: #e79d44;
+  background-color: #ffffff;
   justify-content: space-between;
 }
 
@@ -102,7 +102,7 @@ nav {
 .box1__image, .box2__image, .box3__image, .box4__image, .box5__image, .box6__image {
   border: solid;
   overflow: hidden;
-  width: 50%;
+  width: 60%;
   background-color: black; 
 }
 
@@ -187,6 +187,8 @@ nav {
 }
 
 
+
+/* NEW LISTING POP-UP */
 
 
 
