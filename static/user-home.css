@@ -5,11 +5,12 @@ body {
   padding: 0; 
   font-size: 16px; 
   color: #333; 
+  height: 1600px;
 } 
 
 main { 
   padding: 40px; 
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 img { 
@@ -44,6 +45,10 @@ nav a {
   padding: 15px 24px;
   text-decoration: none;
   font-size: 22px;
+}
+
+button {
+  cursor: pointer;
 }
 
 nav a:hover {
@@ -88,19 +93,21 @@ nav a:hover {
   
 }
 
-/* SESSIONS */
 
-.sessions-container { 
+
+/* CLASSES */
+
+.classes-container { 
   display: grid;
-  grid-template-columns: (12,auto);
-  grid-template-rows: (12,auto);
-  gap: 25px;
+  grid-template-columns: repeat(12,auto);
+  grid-template-rows: repeat(12,auto);
+  gap: 40px;
   border: solid; 
 }
 
-.sessions-container__session { 
+.classes-container__class { 
   display: flex;
-  height: 200px;
+  height: 230px;
 }
 
 .box1__image, .box2__image, .box3__image, .box4__image, .box5__image, .box6__image {
@@ -108,16 +115,44 @@ nav a:hover {
   overflow: hidden;
   width: 50%;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box1__description, .box2__description, .box3__description, .box4__description, .box5__description, .box6__description {
 display: flex;
+width: 50%;
 flex-direction: column;
 justify-content: space-between;
+border:solid pink;
+padding: 10px;
 }
 
+.box1__description button, .box2__description button, .box3__description button, .box4__description button, .box5__description button, .box6__description button {
+width: 20%;
+height: 20%;
+border-radius: 20px;
+background-color: #D25800;
+color: black;
+font-size: large;
+font-weight: bold;
+float: right;
+  } 
+  
+  button:hover {
 
+   background-color: #8c3a00;
 
+  }
+
+  .box1__title, .box2__title, .box3__title, .box4__title, .box5__title, .box6__title {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    opacity: 1;
+  }
 
 
 

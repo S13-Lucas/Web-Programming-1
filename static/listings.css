@@ -5,21 +5,12 @@ body {
   padding: 0; 
   font-size: 16px; 
   color: #333; 
-} 
 
-body { 
-  font-family: 'Helvetica Neue', Arial, sans-serif; 
-  background-color: #f4f4f4; 
-  margin: 0; 
-  padding: 0; 
-  font-size: 16px; 
-  color: #333; 
-  height: 1500px;
 } 
 
 main { 
   padding: 40px; 
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 /* NAVBAR */
@@ -89,7 +80,6 @@ nav a:hover {
  
   
 }
-
 
 
 img { 
@@ -226,8 +216,8 @@ img {
 
 
 
-/* NEW LISTING POP-UP */
-/*
+/* NEW LISTING FORM */
+
 
 .new-listing {
   display: flex;
