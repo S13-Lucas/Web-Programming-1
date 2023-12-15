@@ -1,139 +1,142 @@
 body { 
   font-family: 'Helvetica Neue', Arial, sans-serif; 
-  background-image: url('/static/images/HomePageImage.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-  color: #333;
-}
-
-/* NAVBAR */ 
-nav { 
-
-  display: flex; 
-  height: 80px;
-  padding: 0 20px; 
-  background-color: #2d73bf; 
-  align-items: center; 
-  justify-content: space-between; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-  z-index: 2;
-
-} 
-
-  
-
-.navbar { 
-
-  display: flex; 
-  list-style: none; 
+  background-color: #f4f4f4; 
   margin: 0; 
   padding: 0; 
-} 
-
-  
-
-.navButton { 
-  background-color: #3d81bd; 
-  border: none; 
-  color: white; 
-  padding: 10px 15px; 
-  text-align: center; 
-  text-decoration: none; 
-  margin: 0 10px; 
   font-size: 16px; 
-  border-radius: 5px; 
-  transition: background-color 0.3s ease; 
-} 
-
-  
-
-.navButton:hover { 
-  background-color: #317eaa; 
-} 
-
-  
-
-/* ABOUT SECTION */ 
-
-  
-
-.aboutSection { 
-
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
-  height: calc(100vh - 80px); 
-  background-color: #f6eded;
-  z-index: 1; 
-} 
-
-.aboutBox { 
-  background-color: #5f85c1; 
-  border: 2px solid #f6f6f6; 
-  width: 60%; 
-  padding: 20px; 
-  text-align: center; 
-  border-radius: 8px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-} 
-
-  
-.about { 
-  color: rgb(238, 241, 244); 
-  font-weight: bold; 
-  margin: 10px 0; 
-  text-decoration: underline; 
-} 
-  
-.aboutBox input, #details { 
-  width: 86%; 
-  padding: 10px; 
-  margin-bottom: 15px; 
-  border: 1px solid #ccc; 
-  border-radius: 5px; 
-  font-size: 15px; 
-} 
-  
-#details { 
-  height: 100px; 
   color: #333; 
+  height: 1500px;
 } 
 
-.aboutBox button { 
-  width: 28%; 
+main { 
+  padding: 40px; 
+  margin-top: 30px;
+}
+
+/* NAVBAR */
+
+nav {
+  overflow: hidden;
+  background-color: #D25800;
+  position: fixed;
+  top: 0;
+  width: 100%;
   padding: 10px;
-  background-color: #fff; 
-  color: #808080; 
-  border: 1px solid #ccc; 
-  border-radius: 5px; 
-  cursor: pointer; 
-  margin-top: 10px; 
-  font-size: 13px; 
-  transition: all 0.3s ease; 
-} 
+  gap: 14px;
+  padding-right: 10px;
+}
 
-#edit:hover { 
-  background-color: #99bbe6; 
-  color: #000; 
-  transform: scale(1.05); 
-} 
+nav a {
+  display: flex;
+  float: right;
+  display: block;
+  border-radius: 4px;
+  color: #f2f2f2;
+  text-align: center;
+  align-items: center;
+  padding: 15px 24px;
+  text-decoration: none;
+  font-size: 22px;
+}
 
-#save:hover { 
+nav a:hover {
+  background: #8c3a00;
+  color: black;
+}
 
-  background-color: #93bbe6; 
-  color: #fff; 
-  transform: scale(1.05); 
-} 
+/* SEARCHBAR */
 
-#delete:hover { 
-  background-color: #93bbe6; 
-  color: #fff; 
-  transform: scale(1.05); 
-} 
+.search-container {
+  overflow: hidden;
+  background-color: #aaa;
+  position: fixed;
+  top: 75px;
+  width: 100%;
+}
 
+.search-container input[type=text] {
+  float: left;
+  color: #f2f2f2;
+  padding: 8px; 
+  font-size: 16px; 
+  border: 1px solid #ddd; 
+  border-radius: 2px; 
+  margin: 5px 0px 5px 5px; 
+}
+
+.search-container__button {
+  float: left;
+  padding: 8px; 
+  font-size: 16px; 
+  border: 1px solid #ddd; 
+  border-radius: 2px; 
+  margin: 5px 5px 5px 0px;
+ 
+}
+
+.search-container__button:hover {
+  background: #ccc;
+  cursor: pointer;
+ 
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#details {
+resize: none;
+color: #000000;
+rows: 4;
+cols: 50;
+width: 85%;
+height: 100px;
+border: 1px solid #ccc;
+font-size: 15px;
+font-family: sans-serif;
+border-radius: 5px;
+}
+
+.aboutBox button {
+width: 28%;
+padding: 10px;
+background-color: #fff;
+color: #808080;
+border-color: #ccc;
+border-radius: 5px;
+cursor: pointer;
+justify-content: center; 
+margin-top: 10px;
+font-size: 13px;
+}
+
+
+
+#save:hover {
+background-color: #0ba6ff;
+color: #fff;
+transform: scale(1.05);
+will-change: transform;
+cursor: pointer;
+}
+
+#delete:hover {
+background-color: #c80000;
+color: #fff;
+transform: scale(1.05);
+will-change: transform;
+cursor: pointer;
+}
+
+.aboutBox button:hover::after {
+transform: translate(0, 0);
+}
  
