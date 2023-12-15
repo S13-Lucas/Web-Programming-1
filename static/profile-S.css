@@ -5,12 +5,12 @@ body {
   padding: 0; 
   font-size: 16px; 
   color: #333; 
-  height: 1500px;
+
 } 
 
 main { 
   padding: 40px; 
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 /* NAVBAR */
@@ -83,60 +83,74 @@ nav a:hover {
 
 
 
+.account-Section {
+  display: flex;
+  height: calc(90vh - 150px);
+  background-color: #0ba6ff;
+  justify-content: center;
+ 
 
-
-
-
-
-
-
-
-
-#details {
-resize: none;
-color: #000000;
-rows: 4;
-cols: 50;
-width: 85%;
-height: 100px;
-border: 1px solid #ccc;
-font-size: 15px;
-font-family: sans-serif;
-border-radius: 5px;
 }
 
-.aboutBox button {
-width: 28%;
-padding: 10px;
-background-color: #fff;
-color: #808080;
-border-color: #ccc;
-border-radius: 5px;
-cursor: pointer;
-justify-content: center; 
-margin-top: 10px;
-font-size: 13px;
+.accountBox {
+  display: flex;
+  border:#c80000;
+  border:solid;
+  width: 60%;
+  justify-content: center;
+  align-items: space-evenly;
+
 }
+
+.accountBox label {
+  font-size: large;
+}
+
+
+.accountBox button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.accountBox input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.account-Section__button-container {
+float: right;
+margin-right: 10px;
+gap: 5px;
+}
+
 
 
 
 #save:hover {
-background-color: #0ba6ff;
-color: #fff;
-transform: scale(1.05);
-will-change: transform;
+background-color: #00b624;
+
+
+
 cursor: pointer;
 }
 
 #delete:hover {
 background-color: #c80000;
-color: #fff;
-transform: scale(1.05);
-will-change: transform;
+
+
+
 cursor: pointer;
 }
 
-.aboutBox button:hover::after {
-transform: translate(0, 0);
-}
+
  
